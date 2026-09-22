@@ -83,10 +83,10 @@ test("plugin titles: curated, composed, and official-skipping", () => {
 
 test("plugin titles: every installed workspace plugin resolves (no regression)", () => {
   const installed = [
-    "dsh-archived-chats", "dsh-better-display", "dsh-context", "@dsh-external/dsh-context-compactor",
-    "dsh-cool-theme", "dsh-cost-meter", "dshmarket", "@vectorize-io/hindsight-coding-agents",
-    "dsh-mnemon", "dsh-my-plugins", "dsh-omnisearch", "dsh-plugin-capabilities",
-    "dsh-plugin-config-compat", "dsh-plugin-mobile-gateway", "dsh-settings-mobile-nav",
+    "dsh-archived-chats", "dsh-context", "dsh-cool-theme", "dsh-cost-meter", "dshmarket",
+    "@vectorize-io/hindsight-coding-agents", "dsh-interactive-reader", "dsh-mnemon",
+    "dsh-my-plugins", "dsh-omnisearch", "dsh-plugin-capabilities", "dsh-plugin-config-compat",
+    "dsh-plugin-mobile-gateway", "dsh-session-compactor", "dsh-settings-mobile-nav",
     "dsh-settings-plugin-hub", "dsh-thoughtdag", "dsh-univer-office", "dsh-vision-assistant",
   ];
   for (const name of installed) {
