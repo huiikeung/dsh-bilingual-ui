@@ -1,0 +1,8 @@
+# dsh-bilingual-ui bundle patch (Web profile layer)
+#
+# 浏览器半边（lib/client.js）由 package.json 的 `dsh.client` 声明被 client-modules
+# 扫描并组装进页面启动；宿主半边（lib/index.js）是空实现 —— 本插件纯运行时 DOM
+# 改写，不需要任何 host 服务、路由或凭据。
+- insert:
+    - id: dsh-bilingual-ui
+      name: 'dsh-bilingual-ui'

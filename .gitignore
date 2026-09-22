@@ -1,0 +1,10 @@
+# dependencies (this plugin has none, but a stray install must not leak in)
+node_modules/
+
+# logs & OS noise
+*.log
+.DS_Store
+
+# local scratch
+/.tmp/
+*.bak
